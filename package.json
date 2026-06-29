@@ -1,0 +1,29 @@
+{
+  "name": "playwrightdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "test": "playwright test",
+  "test:ui": "playwright test --ui",
+  "report": "playwright show-report",
+  "report:allure": "allure generate reports/allure-results --clean -o reports/allure-report",
+  "open:allure": "allure open reports/allure-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elizondohdz/playwrightDemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/elizondohdz/playwrightDemo/issues"
+  },
+  "homepage": "https://github.com/elizondohdz/playwrightDemo#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.0.1"
+  }
+}
